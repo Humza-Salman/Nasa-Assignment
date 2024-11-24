@@ -1,0 +1,178 @@
+@media only screen and (max-width:1024px) {
+    .section-three-part-one{
+        padding: 10px;
+    }
+    .all-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-card {
+        width: 80%;
+    }
+
+    .second-card {
+        width: 80%;
+    }
+
+    .third-four-card {
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+    .screen1000px {
+        display: none;
+    }
+
+
+    .image-one {
+        height: 100px;
+        position: relative;
+        top: 20px;
+    }
+
+    .multiple-con {
+        grid-template-columns: 1fr;
+    }
+
+    .two {
+        width: 80%;
+        margin-left: 120px;
+        margin-top: -40px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:900px) {
+    .text-div {
+        max-width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+    .image-one {
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .one {
+        width: 80%;
+    }
+
+    .multiple-con {
+        grid-template-columns: 1fr;
+    }
+
+    .two {
+        width: 70%;
+        margin-left: 120px;
+        margin-top: -60px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:425px) {
+
+    .image-one {
+        height: 50px;
+        margin-top: 20px;
+        position: relative;
+        top: 50%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .one span {
+        font-size: 2rem;
+    }
+
+    .two {
+        width: 70%;
+        margin-left: 70px;
+        margin-top: -5px;
+        font-size: .8rem;
+    }
+
+    .section-three-part-one{
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        
+    }
+
+    .part-one {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Min Height */
+
+
+@media only screen and (min-width:1000px) {
+    .navbar {
+        display: none;
+    }
+
+    .collapse {
+        display: none;
+    }
+}

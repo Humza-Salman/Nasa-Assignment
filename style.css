@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* navbar */
+
+.mynavbar {
+    background-color: black !important;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white !important;
+
+}
+
+
+/* Dropdown list */
+.my-dropdown button {
+    background-color: black !important;
+    border: none !important;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.my-dropdown ul {
+    background-color: black;
+}
+
+.my-dropdown li a {
+    color: white !important;
+}
+
+.my-dropdown li a:hover {
+    background-color: grey;
+}
+
+/* .my-dropdown:hover{
+    border: 2px solid lightblue;
+    border-radius: 2px;
+} */
+
+/* Dropdown list */
+
+
+/* Search bar */
+
+.my-serch {
+    width: 200px !important;
+}
+
+.my-serch input {
+    background-color: black !important;
+    color: white !important;
+    border: 0.1px solid gray;
+    border-radius: 0px !important;
+}
+
+.my-serch input ::placeholder {
+    color: white !important;
+}
+
+.my-serch input:hover {
+    background-color: black !important;
+    color: gray;
+}
+
+/* Search bar */
+
+
+.nasa-live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nasa-live h5{
+    margin-top: 10px ;
+}
+
+.nasa-live button {
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+    width: 40px;
+    height: 20px;
+    font-size: .8rem;
+}
+
+
+
+
+.my-text-color {
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.my-navbar-second {
+    display: flex;
+}
+
+#my-navbar-2 {
+    background-color: black !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* navbar End */
+
+
+
+/* Section one */
+
+
+.section-one {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiple-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+
+.one,
+.two {
+    display: flex;
+    gap: 20px;
+}
+
+.image-one {
+    border-radius: 50%;
+    height: 70px;
+}
+
+.one span {
+    font-size: 2.3rem;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+
+/* Section one */
+
+
+
+/* Section Two */
+
+.section-two {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/11/hubble-fuorionis-stsci-01jd10swk9vb6mq9440erz8qp0.jpg?resize=1536,863);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.section-two-content {
+    background: linear-gradient(65.99deg, #000 0, transparent 99.04%);
+    height: 100%;
+    width: 100%;
+    place-content: center;
+}
+
+.text-div {
+    max-height: 65%;
+    max-width: 45%;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+.text-div span {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.text-div p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.text-div button {
+    padding: 10px;
+    background-color: #ba2c2c;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 1.2rem;
+}
+
+.text-div button:hover {
+    background-color: #da0000;
+}
+
+
+.second-div {
+    margin-left: 10px;
+    color: #ffffff;
+    height: 100px;
+    width: 300px;
+}
+
+.second-div span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.second-div img {
+    height: 25px;
+    transform: rotate(-35deg);
+}
+
+.three-div {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+
+/* .third-div-image{
+    border-radius: 50%;
+    height: 60px;
+    border: 1px solid lightblue;
+} */
+
+
+/* Section Two */
+
+/* Section three */
+
+.section-three {
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+}
+
+.section-three-part-one{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 50px;
+}
+
+.section-three-part-one span{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.part-one {
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.part-one p {
+    font-weight: bold;
+}
+
+.part-one img {
+    /* background-color: aqua; */
+    height: 20px;
+    transform: rotate(-35deg);
+}
+
+
+.section-three-part-two {
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.all-cards {
+    /* background-color: aqua; */
+    height: 100%;
+    width: 95%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* First card */
+
+.first-card {
+    height: 70vh;
+    width: 45%;
+    position: relative;
+    color: white;
+}
+
+
+.first-card span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    z-index: 1000;
+}
+
+.p-h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: .5rem;
+    left: 2rem;
+}
+
+
+.first-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* second card */
+
+.second-card {
+    height: 70vh;
+    width: 25%;
+    position: relative;
+    color: white;
+}
+
+
+.second-card span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    z-index: 1000;
+}
+
+.p-h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: .5rem;
+    left: 2rem;
+}
+
+
+
+.second-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* third-four-card */
+
+
+.third-four-card{
+    height: 70vh;
+    width: 26%;
+    position: relative;
+    color: white;
+}
+
+/* third-div */
+
+
+.third-card {
+    height: 33vh;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+
+.third-card span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    z-index: 1000;
+}
+
+.p-h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: .5rem;
+    left: 2rem;
+}
+
+
+.third-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* part three */
+
+
+.section-three-part-three{
+    background-color: rgb(50, 41, 83);
+    height: 30vh;
+    width: 100%;
+}
