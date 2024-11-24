@@ -4,7 +4,7 @@
     }
 
     .all-cards {
-       place-content: center;
+        place-content: center;
     }
 
     .first-card {
@@ -15,36 +15,46 @@
         width: 65%;
     }
 
-    .part-three-all{
+    .part-three-all {
         height: 100%;
         width: 95%;
-       display: flex;
-       flex-wrap: wrap;
-    }
-    
-    .part-three-one{
-        height: 100%;
-        width: 40%;
-        margin: 10px;
-    }
-    
-    .main-box{
         display: flex;
         flex-wrap: wrap;
     }
 
-    .box{
+    .part-three-one {
+        height: 100%;
+        width: 40%;
+        margin: 10px;
+    }
+
+    .main-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
         height: 55vh;
         width: 42%;
         position: relative;
     }
 
-    .box-display{
+    .box-display {
         position: absolute;
         top: 250px;
         margin-left: 8px;
     }
-    
+
+    .third-gallery{
+        display: none;
+    }
+
+    .first-gallery{
+        height: auto;
+        width: 48%;
+
+    }
+
 
 }
 
@@ -81,6 +91,13 @@
         place-content: center;
     }
 
+    .section-four-content {
+        background: linear-gradient(65.99deg, #000 0, transparent 99.04%);
+        height: 100%;
+        width: 100%;
+        place-content: center;
+    }
+
 
 
 }
@@ -102,7 +119,7 @@
     .second-div {
         margin-left: 10px;
     }
-    
+
 
     .all-cards {
         flex-direction: column;
@@ -122,14 +139,14 @@
         width: 90%;
     }
 
-    .part-three-all{
+    .part-three-all {
         height: 100%;
         width: 95%;
-       display: flex;
-       flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
-    
-    .part-three-one{
+
+    .part-three-one {
         height: 100%;
         width: 100%;
         margin: 10px;
@@ -140,21 +157,46 @@
         margin-left: 10px;
     }
 
-    .section-four-mydiv img{
+    .text-div-six {
+        max-width: 100%;
+        margin-left: 10px;
+    }
+
+    .text-div-six span {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .section-four-mydiv img {
         margin-top: 15px;
         margin-right: 20px;
     }
 
-    .box{
+    .section-six-mydiv img {
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    .box {
         height: 55vh;
         width: 90%;
         position: relative;
     }
 
-    .box-display{
+    .box-display {
         position: absolute;
         top: 200px;
         margin-left: 8px;
+    }
+
+    .sec-gallery{
+        display: none;
+    }
+
+    .first-gallery{
+        height: auto;
+        width: 90%;
+
     }
 }
 
@@ -179,6 +221,8 @@
         margin-left: 120px;
         margin-top: -60px;
     }
+
+    
 
 
 }
@@ -220,6 +264,16 @@
         margin-top: 15px;
     }
 
+    .image-p {
+        margin-left: 20px;
+    }
+
+
+    .box-display {
+        position: absolute;
+        top: 230px;
+        margin-left: 8px;
+    }
 
 }
 
