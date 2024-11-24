@@ -55,6 +55,20 @@
 
     }
 
+    .section-eight {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-coloum{
+        width: 100%;
+    }
+
+    .my-video {
+        width: 100%;
+    }
+
 
 }
 
@@ -273,6 +287,10 @@
         position: absolute;
         top: 230px;
         margin-left: 8px;
+    }
+
+    .first{
+        background-position: right;
     }
 
 }

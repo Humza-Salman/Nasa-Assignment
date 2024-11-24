@@ -703,22 +703,22 @@
 /*  Section seven  */
 
 
-.section-seven{
+.section-seven {
     height: 100%;
     width: 100%;
     padding: 20px;
 }
 
-.seven-part-one{
+.seven-part-one {
     padding: 40px;
 }
 
-.section-seven span{
+.section-seven span {
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-.gallery{
+.gallery {
     height: 100%;
     width: 95%;
     display: flex;
@@ -727,7 +727,7 @@
     margin: auto;
 }
 
-.first-gallery{
+.first-gallery {
     height: auto;
     width: 30%;
     display: flex;
@@ -736,7 +736,7 @@
     margin: auto;
 }
 
-.first{
+.first {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2024/10/nhq202402070015.jpg?resize=300,200);
     background-repeat: no-repeat;
     background-size: cover;
@@ -745,71 +745,71 @@
     width: 100%;
 }
 
-.second-sec-thr{
+.second-sec-thr {
     height: 50vh;
     width: 80%;
 }
 
-.second{
+.second {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/11/acd22-0036-011orig-2.jpg?resize=300,200);
     background-position: top;
     height: 25vh;
     width: 100%;
 }
 
-.third{
+.third {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/11/grc-2023-c-10506-1.jpg?resize=300,200);
-    background-position: top left   ;
+    background-position: top left;
     height: 25vh;
     width: 100%;
 }
 
 /* second */
 
-.first-one{
+.first-one {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/03/iss063e052397.jpg?resize=300,200);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top ;
+    background-position: top;
     height: 50vh;
     width: 100%;
 }
 
-.second-one{
+.second-one {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/03/iss065e145237.jpg?resize=300,200);
     background-size: cover;
     height: 25vh;
     width: 100%;
 }
 
-.third-one{
+.third-one {
     background-image: url(https://images-assets.nasa.gov/image/iss056e012002/iss056e012002~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint);
     background-size: cover;
     background-position: right;
     height: 25vh;
     width: 100%;
-}   
+}
 
 
 /* third */
 
-.first-two{
+.first-two {
     background-image: url(https://images-assets.nasa.gov/image/jsc2023e016432_alt2/jsc2023e016432_alt2~large.jpg?w=1535&h=1920&fit=crop&crop=faces%2Cfocalpoint);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top ;
+    background-position: top;
     height: 50vh;
     width: 100%;
 }
 
-.second-two{
+.second-two {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/04/52794149980_ef2c9a6b15_o.jpg?resize=300,200);
     background-size: cover;
     height: 25vh;
     width: 100%;
-}   
+}
 
-.third-two{
+.third-two {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/08/ksc-20230807-ph-kls01_0487orig.jpg?resize=300,200);
     background-size: cover;
     background-position: right;
@@ -823,3 +823,44 @@
 
 /* section eight */
 
+
+.section-eight {
+    background-color: #f6f6f6;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.text-coloum {
+    height: 100%;
+    width: 45%;
+    place-content: center;
+    color: black;
+    padding: 30px;
+}
+.text-coloum span{
+    width: 80%;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.text-coloum p{
+    width: 80%;
+}
+
+.my-video {
+    height: 100%;
+    width: 50%;
+}
+
+.nasa-video{
+    height: 50vh;
+    width: 100%;
+}
+
+
+/* section eight */
