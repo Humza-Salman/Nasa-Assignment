@@ -1,24 +1,50 @@
-@media only screen and (max-width:1024px) {
-    .section-three-part-one{
+@media only screen and (max-width:1051px) {
+    .section-three-part-one {
         padding: 10px;
     }
+
     .all-cards {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       place-content: center;
     }
 
     .first-card {
-        width: 80%;
+        width: 93%;
     }
 
     .second-card {
-        width: 80%;
+        width: 65%;
     }
 
-    .third-four-card {
-        width: 80%;
+    .part-three-all{
+        height: 100%;
+        width: 95%;
+       display: flex;
+       flex-wrap: wrap;
     }
+    
+    .part-three-one{
+        height: 100%;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .main-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        height: 55vh;
+        width: 42%;
+        position: relative;
+    }
+
+    .box-display{
+        position: absolute;
+        top: 250px;
+        margin-left: 8px;
+    }
+    
 
 }
 
@@ -48,6 +74,13 @@
         margin-top: -40px;
     }
 
+    .section-four-content {
+        background: linear-gradient(65.99deg, #000 0, transparent 99.04%);
+        height: 100%;
+        width: 100%;
+        place-content: center;
+    }
+
 
 
 }
@@ -56,8 +89,73 @@
 @media only screen and (max-width:900px) {
     .text-div {
         max-width: 100%;
+        margin-left: 10px;
     }
 
+}
+
+@media only screen and (max-width:768px) {
+    .section-three-part-one {
+        padding: 10px;
+    }
+
+    .second-div {
+        margin-left: 10px;
+    }
+    
+
+    .all-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-card {
+        width: 90%;
+    }
+
+    .second-card {
+        width: 90%;
+    }
+
+    .third-four-card {
+        width: 90%;
+    }
+
+    .part-three-all{
+        height: 100%;
+        width: 95%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    
+    .part-three-one{
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .text-div-four {
+        max-width: 100%;
+        margin-left: 10px;
+    }
+
+    .section-four-mydiv img{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    .box{
+        height: 55vh;
+        width: 90%;
+        position: relative;
+    }
+
+    .box-display{
+        position: absolute;
+        top: 200px;
+        margin-left: 8px;
+    }
 }
 
 
@@ -110,11 +208,11 @@
         font-size: .8rem;
     }
 
-    .section-three-part-one{
+    .section-three-part-one {
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        
+
     }
 
     .part-one {
