@@ -620,28 +620,28 @@
 
 .box1 {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/02/astro-camp.jpg?resize=1024,768);
-    filter: grayscale(70%);
+    filter: grayscale(50%);
     background-size: cover;
     background-position: top
 }
 
 .box2 {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2023/02/35531721390-3136bfcbc0-new.png?resize=1536,1008);
-    filter: grayscale(70%);
+    filter: grayscale(50%);
     background-size: cover;
     background-position: top
 }
 
 .box3 {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2022/11/52144731374_4bceb0eb02_o.jpg?resize=1024,734);
-    filter: grayscale(70%);
+    filter: grayscale(50%);
     background-size: cover;
     background-position: top
 }
 
 .box4 {
     background-image: url(https://www.nasa.gov/wp-content/uploads/2021/07/ksc-20210707-ph-fmx01_0146.jpg?resize=1024,683);
-    filter: grayscale(70%);
+    filter: grayscale(50%);
     background-size: cover;
     background-position: top
 }
@@ -864,3 +864,242 @@
 
 
 /* section eight */
+
+
+/*  Section-nine  */
+
+
+.section-nine {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.section-nine-content {
+    /* background: linear-gradient(65.99deg, #000 0, transparent 99.04%); */
+    height: 100vh;
+    width: 100%;
+    place-content: center;
+}
+
+.text-div-nine {
+    max-height: 100%;
+    max-width: 50%;
+    color: #ffffff;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+.text-div-nine span {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.text-div-nine p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.section-nine-mydiv {
+    display: flex;
+    gap: 15px;
+}
+
+.section-nine-mydiv img {
+    height: 20px;
+    transform: rotate(-35deg);
+    margin-top: 8px;
+}
+
+
+/* Section nine */
+
+
+/* Section-ten  */
+
+
+
+.section-ten {
+    height: 100%;
+    width: 100%;
+}
+
+.section-ten-part-one {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 50px;
+}
+
+.section-ten-part-one span {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+.section-ten-discover-image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box-ten {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box-ten {
+    height: 55vh;
+    width: 22%;
+    position: relative;
+}
+
+.box-ten img {
+    height: 30px;
+}
+
+.box-ten span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.box-display-ten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    position: absolute;
+    top: 280px;
+    margin-left: 8px;
+}
+
+
+.box1-ten {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1024,576);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+
+.box2-ten {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+
+.box3-ten {
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+
+.box4-ten {
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+.box5-ten {
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+
+.box6-ten {
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2023/07/stsci-01h44ay5ztcv1npb227b2p650j-temp.png);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+
+.box7-ten {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2022/12/aero-topic-card.jpg);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+
+.box8-ten {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-position: top
+}
+
+
+/*  Section-ten  */
+
+
+.footer-logo{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-logo > img{
+    height: 100px;
+}
+
+.my-footer{
+    background-color: #000 !important;
+    color: white !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    line-height: 2.2rem;
+}
+
+.my-footer ul{
+    list-style: none;
+}
+
+.my-footer a{
+    color: white !important;
+    text-decoration: none;
+}
+
+.my-row{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.footer-one{
+    /* background-color: aqua; */
+    width: 30%;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.footer-five{
+    /* background-color: purple; */
+    width: 30%;
+    text-align: center;
+}
+
+.footer-five>div>a>i{
+    font-size: 1.6rem;
+    padding: 10px;
+}

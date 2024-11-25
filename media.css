@@ -69,6 +69,30 @@
         width: 100%;
     }
 
+    .main-box-ten {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-ten {
+        height: 55vh;
+        width: 42%;
+        position: relative;
+    }
+
+    .section-ten-box-display {
+        position: absolute;
+        top: 250px;
+        margin-left: 8px;
+    }
+
+    .footer-five{
+        display: none;
+    }
+    
+    .footer-four{
+        margin-right: 10px;
+    }
 
 }
 
@@ -119,6 +143,15 @@
 
 @media only screen and (max-width:900px) {
     .text-div {
+        max-width: 100%;
+        margin-left: 10px;
+    }
+
+    .section-nine-content {
+        height: 100%;
+    }
+
+    .text-div-nine {
         max-width: 100%;
         margin-left: 10px;
     }
@@ -212,6 +245,28 @@
         width: 90%;
 
     }
+
+    .box-ten {
+        height: 60vh;
+        width: 90%;
+        position: relative;
+    }
+
+    .section-ten-box-display {
+        position: absolute;
+        top: 200px;
+        margin-left: 8px;
+    }
+
+    .footer-four{
+        display: none;
+    }
+
+    .footer-three{
+        margin-right: 10px;
+    }
+
+    
 }
 
 
@@ -236,6 +291,24 @@
         margin-top: -60px;
     }
 
+
+    .my-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-one{
+        width: 90%;
+    }
+
+    .footer-two{
+        width: 90%;
+    }
+
+    .footer-three{
+        width: 90%;
+    }
     
 
 
