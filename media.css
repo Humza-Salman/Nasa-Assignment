@@ -39,11 +39,6 @@
         position: relative;
     }
 
-    .box-display {
-        position: absolute;
-        top: 250px;
-        margin-left: 8px;
-    }
 
     .third-gallery{
         display: none;
@@ -236,7 +231,7 @@
 
     .box-display {
         position: absolute;
-        top: 260px;
+        top: 240px;
         margin-left: 8px;
     }
 
@@ -370,7 +365,7 @@
 
     .box-display {
         position: absolute;
-        top: 240px;
+        top: 220px;
         margin-left: 8px;
     }
 
