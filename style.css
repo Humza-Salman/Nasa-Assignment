@@ -594,7 +594,6 @@
 .box {
     height: 55vh;
     width: 22%;
-    position: relative;
 }
 
 .box img {
@@ -608,13 +607,13 @@
 }
 
 .box-display {
+    height: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 1px;
-    position: absolute;
-    top: 260px;
-    margin-left: 8px;
+    align-items: end;
+    gap: 1px; 
+    /* margin-left: 8px; */
 }
 
 
@@ -980,13 +979,12 @@
 }
 
 .box-display-ten {
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     gap: 1px;
-    position: absolute;
-    top: 280px;
-    margin-left: 8px;
 }
 
 
