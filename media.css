@@ -94,6 +94,10 @@
         margin-right: 10px;
     }
 
+    .box-display-ten {
+        top: 250px;
+    }
+
 }
 
 
@@ -232,7 +236,7 @@
 
     .box-display {
         position: absolute;
-        top: 200px;
+        top: 260px;
         margin-left: 8px;
     }
 
@@ -264,6 +268,10 @@
 
     .footer-three{
         margin-right: 10px;
+    }
+
+    .box-display-ten {
+        top: 280px;
     }
 
     
@@ -358,7 +366,7 @@
 
     .box-display {
         position: absolute;
-        top: 230px;
+        top: 240px;
         margin-left: 8px;
     }
 
